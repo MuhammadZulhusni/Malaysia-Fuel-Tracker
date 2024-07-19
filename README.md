@@ -17,7 +17,7 @@ This project is a React.js application built with TypeScript and Vite. It fetche
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/zulhusni2003/Malaysia-Fuel-Tracker.git
+    git clone https://github.com/MuhammadZulhusni/Malaysia-Fuel-Tracker.git
     ```
 
 2. Navigate to the project directory:
