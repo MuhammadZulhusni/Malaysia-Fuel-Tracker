@@ -12,7 +12,7 @@ interface Props {
 // Props: Represents the type of props (properties) that the component expects to receive.
 const AreaChartGraph: React.FC<Props> = ({ filteredData, title, explanation }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-center">
       {/* Title and explanation */}
       <h2 className="text-4xl font-bold text-blue-600 bg-gradient-to-r from-blue-900 to-blue-600 bg-clip-text text-transparent">{title}</h2>
       <p className="text-gray-600 mt-3">{explanation}</p>
