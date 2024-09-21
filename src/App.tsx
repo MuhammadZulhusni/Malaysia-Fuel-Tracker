@@ -17,6 +17,7 @@ function App() {
   const fetchData = async () => {
     setLoading(true); // Set loading state to true while fetching data
     try {
+      // Fetch fuel price data from the government API, appending a timestamp to prevent caching
       const response = await fetch("https://api.data.gov.my/data-catalogue?id=fuelprice&timestamp=" + Date.now());
 
       if (!response.ok) {
